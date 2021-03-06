@@ -1,4 +1,5 @@
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Group {
 
@@ -7,7 +8,16 @@ public class Group {
     private String name;
     private String area;
     private LocalDate createdAt;
+    private static  ArrayList<Project> projects;
+    private static  ArrayList<Group> groups;
 
+    public static int countActiveProjects() {
+        int p = Project.size();
+        for (int i = 0; i<p; i++){
+            Project.get(i).isActive();
+        }
+        return 0;
+    }
 
     public String getName() {
         return name;
@@ -17,3 +27,4 @@ public class Group {
         this.name = name;
     }
 }
+
