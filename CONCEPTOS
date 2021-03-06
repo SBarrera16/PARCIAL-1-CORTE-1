@@ -1,0 +1,17 @@
+1. ¿Qué es encapsulamiento? ¿Qué ventajas ofrece?
+
+    El encapsulamiento consiste en ocultar los atributos y metodos de una clase para evitar que sean modificados desde otra clase; con el fin de que cuando otro 
+    programador utilice nuestra clase, no pueda cambiar su estado o comportamiento de manera imprevista o incontrolada. Estos modificadores de acceso pueden ser: 
+    public, private, protected o defaul.
+
+
+2. ¿Qué es ocultación de información? ¿Por qué aplicarla? ¿Cómo se implementa en Java?
+
+    El principio de ocultacion crea un aislamiento que protege las propiedades de un objeto contra su modificaion por quien no tenga derecho a acceder a ellas 
+    solamente los propios metodos internos del objeto pueden acceder a su estado.  Esto asegura que otros objetos no puedan cambiar el estado interno de un objeto
+    de maneras inesperadas, eliminando efectos no deseados o interacciones no esperadas.
+    La aplicacion mas comun seria para proteger todos los atributos de un objeto en si mismo para que funcione de la manera esperada sin crear confilctos con otras
+    instancias en el codigo.
+    En java se implementa atraves de modificadores de acceso mencionados en la respuesta anterior: public, pruvate, protected o defaul. segun el modificador de 
+    acceso escogido le dara' diferentes atributos de privacidad.
+
