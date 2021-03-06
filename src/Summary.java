@@ -1,8 +1,10 @@
 import java.time.LocalDate;
 
 public class Summary {
-    private LocalDate DATE;
-    private int ActiveProjects;
-    private int OpenActivities;
-    private int ClosedActivities;
+
+    private LocalDate Date;
+    private int activeProjects;
+    public int openActivities;
+    private int closeActivities;
+
 }
