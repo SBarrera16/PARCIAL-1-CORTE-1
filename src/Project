@@ -1,0 +1,30 @@
+import java.time.LocalDate;
+
+public class Project {
+    private String ProjectName;
+    private String Goal;
+    private LocalDate dateInit;
+    private LocalDate dateEnd;
+
+    public static void get(int i) {
+    }
+
+    public static int size() {
+    }
+
+
+    public void createSummaryEntry() {
+        int g = group.size();
+        int ap;
+        for (int i = 0; i < g; i++) {
+            ap = Group.countActiveProjects();
+        }
+    }
+
+    public void countOpenActivities() {
+        int a = openActivities.size();
+        for(int i = 0; i<a; i++){
+            openActivities.get(i).isActive()
+        }
+    }
+}
